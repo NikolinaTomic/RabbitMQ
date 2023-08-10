@@ -6,7 +6,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.1.1</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
     <groupId>com.rabittmq.springbootrabbitmqproducer</groupId>
     <artifactId>spring-boot-rabbitmq-consumer</artifactId>
@@ -17,16 +17,6 @@
         <java.version>17</java.version>
     </properties>
     <dependencies>
-        <!--		<dependency>-->
-        <!--			<groupId>com.rabbitmq</groupId>-->
-        <!--			<artifactId>amqp-client</artifactId>-->
-        <!--			<version>5.18.0</version>-->
-        <!--		</dependency>-->
-        <!--		<dependency>-->
-        <!--			<groupId>com.mycompany.childapp</groupId>-->
-        <!--			<artifactId>childapp</artifactId>-->
-        <!--			<version>0.0.1-SNAPSHOT</version>-->
-        <!--		</dependency>-->
         <dependency>
             <groupId>com.rabittmq.springbootrabbitmqpproducer</groupId>
             <artifactId>spring-boot-rabbitmq-producer</artifactId>
@@ -64,5 +54,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
