@@ -8,7 +8,9 @@ How to run project:
 How to stop project:
 - Stop both producer and consumer from Intellij
 - From terminal run:
+  
   docker ps
+  
   docker stop containerId
 
 Results:
