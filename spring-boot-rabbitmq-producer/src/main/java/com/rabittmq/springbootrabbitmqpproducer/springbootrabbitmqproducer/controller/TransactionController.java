@@ -16,20 +16,26 @@ import org.springframework.web.bind.annotation.RestController;
 import java.io.FileReader;
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.UUID;
 
 @RestController
 @RequestMapping("transactions")
 public class TransactionController {
 
-    private final String filePath = "../../../TransactionsTest.csv";
+    private final String fileName = "Transactions1000.csv";
     @Autowired
     UserTransactionEventProducer userTransactionEventProducer;
 
     @PostMapping
-    public void sendTransactions() throws CsvValidationException, IOException {
+    public void sendTransactions() throws CsvValidationException, IOException, URISyntaxException {
+        URL resourceUrl = getClass().getClassLoader().getResource(fileName);
+        Path filePath = Paths.get(resourceUrl.toURI());
         CSVReader reader =
-                new CSVReaderBuilder(new FileReader(filePath)).build();
+                new CSVReaderBuilder(new FileReader(filePath.toString())).build();
         var fields = reader.readNext();
         while (fields != null) {
             var transaction = Transaction.builder()
