@@ -4,6 +4,7 @@ How to run project:
 - Run both producer and consumer from IntelliJ
 - Run curl: curl --location --request POST 'http://localhost:8083/transactions'
 - Depending on testing needs, change file name in TransactionController (existing files are located in resources folder)
+  
 How to stop project:
 - Stop both producer and consumer from Intellij
 - From terminal run:
