@@ -15,7 +15,7 @@ How to stop project:
 
 Results:
 
-![RabbitMq1000](https://github.com/NikolinaTomic/RabbitMQ/assets/44821513/4da5cac5-57f0-47f3-b01d-ded916f640ab)
+![RabbitMq1000](https://github.com/NikolinaTomic/RabbitMQ/assets/44821513/ad00f3f0-d1fd-4eb4-aea6-f7294abe0709)
 ![RabbitMq10k](https://github.com/NikolinaTomic/RabbitMQ/assets/44821513/34f53d79-5307-478d-84de-32419ce70f9a)
 ![RabbitMq100k](https://github.com/NikolinaTomic/RabbitMQ/assets/44821513/382a01dc-3483-43db-83aa-1e5942f17525)
-![RabbitMqMillion](https://github.com/NikolinaTomic/RabbitMQ/assets/44821513/2a4b0e35-51fa-44c6-84a8-709914fdc1ea)
+![KafkaMillion](https://github.com/NikolinaTomic/RabbitMQ/assets/44821513/1a28af39-f483-43e0-a6a6-2de6a91233cb)
